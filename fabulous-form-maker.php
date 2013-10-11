@@ -3,7 +3,7 @@
 Plugin Name: Fabulous Form Maker
 Plugin URI: http://wordpress.org/plugins/fabulous-form-maker
 Description: A custom form maker that allows users to build their own forms easily and without any knowledge of coding or progamming. Users can create text boxes, passwords fields, drop down select boxes, radio boxes, checkboxes, and text areas.
-Version: 1.0.9
+Version: 1.0.9.2
 Author: Ellytronic Media
 Author URI: http://ellytronic.com
 License:GPL2
@@ -24,6 +24,7 @@ License:GPL2
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
 
 
 function etm_send_form() {	
