@@ -4,7 +4,7 @@ Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: form, custom, contact, email, connect, easy, ellytronic  
 Requires at least: 3.0  
 Tested up to: 4.2  
-Stable tag: 2.0.1  
+Stable tag: trunk  
 License: GPLv2  
   
 A custom form maker that allows users to build their own forms easily and without any knowledge of coding or progamming. 
@@ -29,6 +29,18 @@ NOTE: This plugin currently supports only one form per website.
 3. After installing, on the admin menu, visit the new link under "Pages" titled "Contact Form"  
 4. Change the default settings if needed and create the form on there.  
 5. Call the form whereever needed by using the shortcode.  NOTE: This plugin can be called multiple times on the website; however, only once per page.  
+
+= Steps to create a form =
+User can login to their wp-admin portal after successful installation of the FabulousFormMaker Plugin.   
+1. Navigate to Plugins  
+2. Click on Installed Plugins  
+3. Activate FabulousFormMaker.   
+4. Navigate to Contact Form (Note: User will be able to see their Custom Contact Form)    
+  
+=  Save Settings =    
+1. **Address the contact form to the following name**: User can enter the name in the textbox.   
+2. **Send the contact form to this email address**: User can enter the email address of the person who will receive the form.   
+3. Click on Save Settings will save the entry made to the above fields with the message on top as “Settings Updated”  
 
 == Upgrade Notice ==
 __IMPORTANT!__  
@@ -62,83 +74,45 @@ Unhappy with the default CSS? You can override the CSS by adding a few lines of 
   `}`  
 
 == Screenshots ==  
-= Steps to create a form =  
-User can login to their wp-admin portal after successful installation of the FabulousFormMaker Plugin.   
-1. Navigate to Plugins  
-2. Click on Installed Plugins  
-3. Activate FabulousFormMaker.   
-4. Navigate to Contact Form (Note: User will be able to see their Custom Contact Form)    
   
-=  Save Settings =    
-1. **Address the contact form to the following name**: User can enter the name in the textbox.   
-2. **Send the contact form to this email address**: User can enter the email address of the person who will receive the form.   
-3. Click on Save Settings will save the entry made to the above fields with the message on top as “Settings Updated”  
+1. After entering necessary information in Settings, user can create the form by choosing fields from the drop down list.  
+Choose item to add in the contact form. Click on the drop down list.  User can choose any of the six options (Single-Line Text Box, Selection Box, Large Text Box, Password Text Box, Radio Box (Choose one Option Style), Check Boxes (Choose Multiple Option Style).  
   
-= Step 1 =    
-After entering necessary information in Settings, user can create the form by choosing fields from the drop down list.  
-Choose item to add in the contact form  
-1. Click on the drop down list,  
-2. User can choose any of the six options (Single-Line Text Box, Selection Box, Large Text Box, Password Text Box, Radio Box (Choose one Option Style), Check Boxes (Choose Multiple Option Style).  
-3. User has the ability to delete any of the option.  
-![Step1](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step1-SaveSettings.png)  
+2. On selection of Single-Line Text Box option, user can add Text to print before this single line text box: making this field as ‘Required’ (a check box), Finish this element and add to form or Cancel adding this element.  
   
-= Step 2 =  
-**Single-Line Text Box**  
-1. On selection of Single-Line Text Box option, user can add Text to print before this single line text box: making this field as ‘Required’ (a check box), Finish this element and add to form or Cancel adding this element.  
-2. If user selects ‘Required’ check box, then this text box becomes required field in the contact form.   
-3. User can Finish this element and add to form or user can Cancel adding this element in the form.  
-![Step2](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step2-SingleLineTextBox.png)  
+3. User selects Selection Box option from the drop down list. User can add entry in Text to print before this drop down select box, make a field Required or not required, add options to the Next select box option, Your Select Box So Far displays  the options, Finish this element and add to form or Cancel adding this element.  
   
-= Step 3 =  
-**Selection Box**  
-1. User selects Selection Box option from the drop down list.   
-2. User can add entry in Text to print before this drop down select box, make a field Required or not required, add options to the Next select box option, Your Select Box So Far displays  the options, Finish this element and add to form or Cancel adding this element.  
-![Step3](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step3-SelectionBox.png)  
+4. User selects Large Text Box option from drop down list.  
   
-= Step 4 =  
-**Large Text Box**  
-1. User selects Large Text Box option from drop down list.   
-2. On selection of Large Text Box option, user can add Text to print before this large text box: making this field as ‘Required’ (a check box)or not required, Finish this element and add to form or Cancel adding this element.  
-![Step4](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step4-LargeTextBox.png)  
+5. User selects Password Text Box option from drop down list.  
   
-= Step 5 =  
-**Password Text Box**  
-1. User selects Password Text Box option from drop down list.  
-2. On selection of Password Text Box option, user can add Text to print before this password style box: making this field as Required (a check box)   or not required, Finish this element and add to form or Cancel adding this element.  
-![Step5](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step5-PasswordTextBox.png)  
+6. User selects Radio Box option from drop down list. On selection of Radio Box option, user can add Text to print before this list of choices:, make this field as Required or not Required, Label for this choice, Finish this element  and add  to form or Cancel adding this element.  
   
-= Step 6 =  
-**Radio Box**  
-1. User selects Radio Box option from drop down list.  
-2. On selection of Radio Box option, user can add Text to print before this list of choices:, make this field as Required or not Required, Label for this choice, Finish this element  and add  to form or Cancel adding this element.  
-![Step6](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step6-RadioBox.png)  
+7. User selects Check Boxes option from drop down list. On selection of Check Boxes option, user can add Text to print before this list of choices:, make this field as Required or not Required, Label for this choice, Finish this element  and add  to form or Cancel adding this element.  
   
-= Step 7 =  
-**Check Boxes**  
-1. User selects Check Boxes option from drop down list.  
-2. On selection of Check Boxes option, user can add Text to print before this list of choices:, make this field as Required or not Required, Label for this choice, Finish this element  and add  to form or Cancel adding this element.  
-![Step7](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step7-CheckBoxes.png)  
-  
-= Step 8 =  
-View of form after click on Save Form.  
-![Step8](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step8-YourFormSoFar1.png)  
-![Step9](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Step9-YourFormSoFar2.png)  
 
-= Step 9 =  
-1. To view form on the front end, user will enter the contact url  
-2. User can gives the required input  
-![UIForm](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/UIForm.png)  
-3. Once user clicks on Submit button, a Thank you messgae is displayed.  
-![SubmitMessage](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/SubmitMessage.png)  
-4. An email is sent to the administrator will the filled out contact form.  
-![Email](https://github.com/elliottpost/fabulous-form-maker/blob/elly-dev/FM/Screenshots/Email.png)  
+8. View of form after click on Save Form.  
+
+9. View of form after click on Save Form (continued).  
+
+10. The front-end form.  
+
+11. The front-end form submission result.  
+
+12. The email the form admin receives.  
    
 == Resources ==  
 [Link for how to get SVN for WordPress (specific to WP) and git](http://code.tutsplus.com/tutorials/publishing-wordpress-plug-ins-with-git--wp-25235)  
   
 == Changelog ==  
 
-= 2.0 =
+= 2.0.2 = 
+Updated screenshots area in readme
+
+= 2.0.1 = 
+Updated readme to use WP MD requirements
+
+= 2.0.0 =
 Plugin is now object orienteded.  
 Plugin is now compatible with/extensible for multiple Content Management Systems provided a new adapter is created which implements the I_Adapter interface. (See developers docs for more details)
 Unit tests added for all non-CMS-dependent methods.  
